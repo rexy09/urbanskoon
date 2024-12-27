@@ -23,5 +23,6 @@
       "src": "/(.*)",
       "dest": "urbanskoon/wsgi.py"
     }
-  ]
+  ],
+  "outputDirectory": "staticfiles"
 }
