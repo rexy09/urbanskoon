@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'urbanskoon.wsgi.application'
+WSGI_APPLICATION = 'urbanskoon.wsgi.app'
 
 
 # Database
