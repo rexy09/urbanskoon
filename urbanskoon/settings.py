@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-4)l5c297z4%1#vj87^9%8wjql)hs8$9)%w8a^jc$opz&(r@+ci
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', 'https://urbanskoon.vercel.app/']
 
 
 # Application definition
@@ -90,6 +90,7 @@ WSGI_APPLICATION = 'urbanskoon.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(default='sqlite:///db.sqlite3')
 }
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
