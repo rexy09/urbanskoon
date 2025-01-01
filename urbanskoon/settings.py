@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-4)l5c297z4%1#vj87^9%8wjql)hs8$9)%w8a^jc$opz&(r@+ci
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', 'urbanskoon.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', 'urbanskoon.vercel.app', '*']
 
 
 # Application definition
@@ -86,6 +86,19 @@ WSGI_APPLICATION = 'urbanskoon.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
+if os.environ["PGDATABASE"]:
+    
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': os.environ["PGDATABASE"],
+            'USER': os.environ["PGUSER"],
+            'PASSWORD': os.environ["PGPASSWORD"],
+            'HOST': os.environ["PGHOST"],
+            'PORT': os.environ["PGPORT"],
+        }
+    }
 
 
 
