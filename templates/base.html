@@ -1,5 +1,9 @@
 {% load static %} 
+
+{% comment %}
 {% load django_browser_reload %}
+{% endcomment %}
+  
 <!DOCTYPE html>
 <html lang="zxx">
   <head>
@@ -74,6 +78,10 @@
     <script src="/static/js/wow.min.js"></script>
     <!-- Custom JS -->
     <script src="/static/js/custom.js"></script>
+    
+    {% comment %}
     {% django_browser_reload_script %}
+    {% endcomment %}
+      
   </body>
 </html>
