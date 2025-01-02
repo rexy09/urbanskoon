@@ -4,6 +4,6 @@
         "builder": "NIXPACKS"
     },
     "deploy": {
-        "startCommand": "python manage.py collectstatic --noinput && gunicorn urbanskoon.wsgi"
+        "startCommand": "gunicorn urbanskoon.wsgi"
     }
 }

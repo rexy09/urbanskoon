@@ -2,7 +2,7 @@ media/**
 !media/.gitkeep
 static/**
 !static/.gitkeep
-staticfiles/**
+# staticfiles/**
 */migrations/**
 *.pyc
 !__init__.cpython-38.pyc
