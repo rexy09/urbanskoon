@@ -9,7 +9,6 @@ static/**
 !__init__.py
 !__pycache__/
 db.sqlite3
-.env
 .env.dev
 .env.prod
 certbot/**
@@ -110,7 +109,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -147,3 +145,5 @@ cython_debug/
 
 # LSP config files
 pyrightconfig.json
+config.bat
+node_modules
