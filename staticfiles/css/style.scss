@@ -37,7 +37,7 @@ $all-size: 15px;
 $white-color: #ffffff;
 $black-color: #333333;
 $grey-color: #858584;
-$yellow-color: #fdb819;
+$yellow-color: #fea500;
 
 /*-- Default CSS --*/
 body {
@@ -194,7 +194,7 @@ button {
         height: 1000px;
         right: -287px;
         top: -92px;
-        background-color: #fdb819;
+        background-color: #fea500;
         opacity: 0.80;
         transform: rotate(-17deg);
     }
@@ -1678,7 +1678,7 @@ footer {
         height: 100%;
         right: 0;
         left: unset;
-        background-color: #fdb819;
+        background-color: #fea500;
         opacity: 1;
         clip-path: polygon(90% 0, 100% 0%, 10% 100%, 0% 100%);
         display: none;
@@ -1690,7 +1690,7 @@ footer {
         height: 100%;
         right: -120px;
         top: 0;
-        background-color: #fdb819;
+        background-color: #fea500;
         clip-path: polygon(90% 0, 100% 0%, 10% 100%, 0% 100%);
         display: none;
     }
@@ -2295,7 +2295,7 @@ footer {
         background: #869791;
     }
     .owl-theme .owl-dots .owl-dot.active span {
-        background: #fdb819;
+        background: #fea500;
     }
 }
 .blog-area-two {
@@ -3525,7 +3525,7 @@ footer {
         border-radius: 50%;
         transition: $transition;
         margin-right: 28px;
-        box-shadow: 0px 0px 14px 0px #fdb81991;
+        box-shadow: 0px 0px 14px 0px #fea50091;
 
         &:hover {
             background-color: $black-color;

@@ -50,10 +50,10 @@
 }
 .switch-box input:checked + .slider {
   background-color: transparent;
-  border: 1.5px solid #fdb819;
+  border: 1.5px solid #fea500;
 }
 .switch-box input:focus + .slider {
-  box-shadow: 0 0 1px #fdb819;
+  box-shadow: 0 0 1px #fea500;
 }
 .switch-box input:checked + .slider:before {
   transform: translateX(24px);
@@ -73,7 +73,7 @@
   transition: 0.7s;
 }
 .theme-dark h3 a:hover {
-  color: #fdb819 !important;
+  color: #fea500 !important;
 }
 .theme-dark p {
   color: #ffffff;
@@ -110,10 +110,10 @@
   color: #ffffff;
 }
 .theme-dark .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #fdb819 !important;
+  color: #fea500 !important;
 }
 .theme-dark .main-nav nav .navbar-nav .nav-item a.active {
-  color: #fdb819 !important;
+  color: #fea500 !important;
 }
 .theme-dark .main-nav nav .navbar-nav .nav-item .dropdown-menu {
   background-color: #252525 !important;
@@ -122,10 +122,10 @@
   color: #ffffff !important;
 }
 .theme-dark .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #fdb819 !important;
+  color: #fea500 !important;
 }
 .theme-dark .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #fdb819 !important;
+  color: #fea500 !important;
 }
 .theme-dark .address-area .row {
   background-color: #252525;
@@ -179,20 +179,20 @@
   color: #ffffff;
 }
 .theme-dark .service-details-area .service-details-item .service-details-left h3::before, .theme-dark .service-details-area .service-details-item .service-details-contact h3::before {
-  background-color: #fdb819;
+  background-color: #fea500;
 }
 .theme-dark .service-details-area .service-details-item .service-details-left ul li, .theme-dark .service-details-area .service-details-item .service-details-contact ul li {
   color: #ffffff;
 }
 .theme-dark .service-details-area .service-details-item .service-details-left ul li i, .theme-dark .service-details-area .service-details-item .service-details-contact ul li i {
-  color: #fdb819;
+  color: #fea500;
 }
 .theme-dark .service-details-area .service-details-item .service-details-left ul li a, .theme-dark .service-details-area .service-details-item .service-details-contact ul li a {
   color: #ffffff;
   transition: 0.7s;
 }
 .theme-dark .service-details-area .service-details-item .service-details-left ul li a:hover, .theme-dark .service-details-area .service-details-item .service-details-contact ul li a:hover {
-  color: #fdb819;
+  color: #fea500;
 }
 .theme-dark .blog-details-item .blog-details-nav ul li a {
   color: #ffffff;
@@ -209,14 +209,14 @@
   color: #ffffff;
 }
 .theme-dark .blog-details-item .blog-details-recent .blog-details-inner a:hover {
-  color: #fdb819;
+  color: #fea500;
 }
 .theme-dark .blog-details-item .blog-details-category ul li a {
   color: #ffffff;
   transition: 0.7s;
 }
 .theme-dark .blog-details-item .blog-details-category ul li a:hover {
-  color: #fdb819;
+  color: #fea500;
 }
 .theme-dark .blog-details-item .blog-details-tag ul li a {
   color: #ffffff;
@@ -224,7 +224,7 @@
   transition: 0.7s;
 }
 .theme-dark .blog-details-item .blog-details-tag ul li a:hover {
-  background-color: #fdb819;
+  background-color: #fea500;
 }
 .theme-dark .cart-wrap .table tr td {
   color: #ffffff;
@@ -234,7 +234,7 @@
   color: #ffffff;
 }
 .theme-dark .cart-wrap .table tr td a:hover {
-  color: #fdb819;
+  color: #fea500;
 }
 .theme-dark .cart-wrap .table th {
   background-color: #333333;
@@ -243,7 +243,7 @@
   color: #ffffff;
 }
 .theme-dark .cart-wrap .shop-back a:hover {
-  color: #fdb819;
+  color: #fea500;
 }
 .theme-dark .cart-wrap .total-shopping h2 {
   color: #ffffff;
@@ -259,7 +259,7 @@
   color: #ffffff;
 }
 .theme-dark .checkout-item .checkout-two .form-check span a {
-  color: #fdb819;
+  color: #fea500;
   transition: 0.7s;
 }
 .theme-dark .checkout-item .checkout-two .form-check span a:hover {
@@ -275,7 +275,7 @@
   color: #ffffff;
 }
 .theme-dark .signup-item span a, .theme-dark .login-item span a {
-  color: #fdb819;
+  color: #fea500;
   transition: 0.7s;
 }
 .theme-dark .signup-item span a:hover, .theme-dark .login-item span a:hover {
